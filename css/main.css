@@ -491,3 +491,751 @@ footer a {
 	padding:33% 12%;
 	text-decoration:none;
 }
+
+/*
+========================
+
+MEDIA QUERIES-RESPONSIVE
+
+=====================
+*/
+
+@media screen and (max-width: 1077px) {
+    body {
+        background-color: lightblue;
+    }
+    .body-container {
+  background-color: #3E3530;
+  width: 90%;
+  height: 100%;
+  margin: auto auto;
+}
+
+    .banner3 a {
+  background-color: white;
+  line-height: 2em;
+  width: 70%;
+  border: 3px orange solid;
+  display: inline-block;
+  position: relative;
+  bottom: 79px;
+  padding: 0;
+  text-align: center;
+  margin: 1% 0 0 10%;
+  border-radius: 35%;
+}
+    .search-2 h1 {
+  float: left;
+  color: orange;
+  width: 17%;
+  font-size: 17px;
+  margin-top: 1%;
+  } 
+  .top-right-pic {
+  visibility: hidden;
+  float: right;
+  width: 0;
+}
+.banner3 h1 {
+  font-size: 20px;
+  border: solid white 3px;
+  border-radius: 50%;
+  padding: 7%;
+  position: relative;
+  bottom: 38px;
+  right: 11%;
+}
+
+.bestsellers {
+  clear: both;
+  height: 598px;
+  width: 100%;
+  padding-top: 2%;
+  background-color: orange;
+  border-radius: 10%;
+}
+
+  .bestsellers h1 {
+  font-size: 26px;
+  text-decoration: none;
+  width: 93%;
+  text-align: center;
+  padding: 10% 2%;
+  border: 2px dotted orange;
+  border-radius: 30% 30% 30%;
+  color: orange;
+  background: black;
+  margin-right: 3.3%;
+}
+   .ur p {
+   	  width: 58%;
+  display: block;
+  margin-left: 38%;
+  height: 66%;
+  text-align: left;
+}
+   .header-top {
+   	float:right;
+   	width:100%;
+   	clear:none;
+   }
+   .header-top h1 {
+   	  width: 84%;
+  padding: 0;
+  display: block;
+  position: relative;
+  top: 1px;
+  margin: 0 37%;
+   }
+   nav {
+   	float:left;
+   	width:94%;
+   	height:74px;
+   	margin-top:0;
+   	margin-left:0;
+   }
+   nav ul {
+   	  width: 90%;
+  margin-left: 5%;
+   }
+   .search {
+  float: left;
+  width: 46%;
+  margin: 1%;
+  height: 30px;
+}
+.search h1 {
+  float: left;
+  font-size: 17px;
+  padding: 1% 2%;
+  color: orange;
+ }
+.search-2 {
+  float: right;
+  width: 43%;
+  height: 30px;
+  margin-right: 0%;
+}
+.search-2 h1 {
+  float: left;
+  color: orange;
+  width: 24%;
+  padding: 0% 7%;
+  font-size: 17px;
+  margin-right: 0%;
+}
+.center-pic {
+	float: right;
+  width: 73%;
+  height: 520px;
+  margin: 0 1%;
+  border-radius: 6%;
+}
+.category-left h1 {
+  font-size: 40px;
+  padding: 1% 1% 1% 1%;
+  margin: 3% 1% 3% 3%;
+  width: 90%;
+  color: black;
+  background-color: orange;
+  border-radius: 27%;
+  border: black 3px dotted;
+}
+.banner123 a {
+  position: relative;
+  bottom: 36px;
+  padding: 7%;
+  background-color: white;
+  border: orange 2px solid;
+  border-radius: 35%;
+  margin: 0% 0 0% 9%;
+}
+.featured-products img {
+  width: 75%;
+  display: inline;
+  padding: 0%;
+  border-radius: 25%;
+  margin: 0 6%;
+  border: 6px solid 
+
+}
+.banner2 a:nth-child(2) {
+  border: orange 3px solid;
+  border-radius: 35%;
+  background-color: white;
+  padding: 6% 0;
+  margin: 0% 7%;
+  width: 100%;
+  position: relative;
+  bottom: 25px;
+}
+
+.wrapper-bestsellers {
+  padding: 2% 0;
+  width: 40%;
+  margin: 0 25%;
+}
+.featured-wrapper {
+  float: left;
+  height: 37%;
+  margin: 1%;
+  width: 98%;
+  background-color: black;
+  border-radius: 10%;
+}
+
+@media screen and (max-width:970px) {
+	body {
+}
+.category-left {
+  clear: both;
+  float: left;
+  width: 25%;
+  position: relative;
+  background-color: black;
+  border-radius: 10% 10%;
+  bottom: 55px;
+  height: 500px;
+}
+.wrapper-bestsellers {
+  padding: 2% 0;
+  
+  width: 40%;
+  margin: 0 25%;
+}
+.body-container {
+  background-color: #3E3530;
+  width: 90%;
+  height: 100%;
+  margin: auto auto;
+}
+.featured-wrapper {
+  float: left;
+  height: 37%;
+  width: 90%;
+  background-color: black;
+  border-radius: 7%;
+  display: block;
+  margin: 0% 5% 2% 5%;
+}
+.banner3 a {
+  background-color: white;
+  line-height: 2em;
+  width: 70%;
+  border: 3px orange solid;
+  display: inline-block;
+  position: relative;
+  bottom: 79px;
+  padding: 0 12% 0 0;
+  text-align: center;
+  margin: 1% 0 0 4%;
+  border-radius: 35%;
+}
+
+	.category-left h1 {
+  font-size: 37px;
+  margin: 3% 1% 3% 3%;
+  width: 85%;
+  color: black;
+  background-color: orange;
+  border-radius: 27%;
+  border: black 3px dotted;
+}
+
+.top-right-pic {
+	visibility:hidden;
+}
+	.center-pic {
+  float: right;
+  width: 73%;
+  height: 520px;
+  margin: 0 1%;
+  border-radius: 6%;
+  position: relative;
+  bottom: 50px;
+}
+	div.ur {
+  float: left;
+  width: 10%;
+  height: 150px
+}
+.ur p {
+  width: 55%;
+  margin-left: 0;
+}
+.header-top {
+	width:88%;
+	height:150px;
+}
+nav ul {
+	padding-top:3%;
+}
+nav ul a {
+	padding:0 3%;
+}
+.search {
+  visibility:hidden;
+
+}
+.search-2 {
+	visibility:hidden;
+}
+.banner3 h1 {
+  font-size: 20px;
+  border: solid white 3px;
+  border-radius: 50%;
+  padding: 7%;
+  position: relative;
+  bottom: 39px;
+  right: 6%;
+}
+
+@media screen and (max-width:850px) {
+	body {
+		height:100%;
+	}
+	.body-container {
+  background-color: #3E3530;
+  width: 90%;
+  height: 100%;
+  margin: auto auto;
+}
+.bestsellers {
+  clear: both;
+  height: 598px;
+  width: 100%;
+  padding-top: 2%;
+  background-color: orange;
+  border-radius: 10%;
+}
+.featured-wrapper {
+	
+  height: 1000px;
+  width: 90%;
+  background-color: black;
+  border-radius: 7%;
+  display: block;
+  margin: 0% 5% 2% 5%;
+}
+.featured-products {
+  padding: 2% 0 0 0;
+  background-color: black;
+  border-radius: 10%;
+  margin: 1%;
+  /* float: left; */
+  width: 98%;
+  height: 174%;
+}
+.banner123 {
+  width: 33%;
+  clear: both;
+  /* float: left; */
+  background-color: black;
+  margin: 0 25%;
+  width: 59%;
+}
+.banner2 {
+  width: 59%;
+  margin: 0% 25%;
+  /* float: left; */
+}
+.banner3 {
+  width: 59%;
+  /* float: left; */
+  margin: 0 25%;
+}
+.banner3 a {
+  background-color: white;
+  line-height: 2em;
+  width: 30%;
+  border: 3px orange solid;
+  display: inline-block;
+  position: relative;
+  bottom: 79px;
+  padding: 2%;
+  text-align: center;
+  
+  border-radius: 35%;
+}
+.featured-products {
+  padding: 2% 0 0 0;
+  background-color: black;
+  border-radius: 10%;
+  margin: 1%;
+  /* float: left; */
+  width: 98%;
+  height: 157%;
+}
+.bestsellers {
+  position: relative;
+  height: 1044px;
+  bottom: 487px;
+  width: 100%;
+  padding-top: 2%;
+  background-color: orange;
+  border-radius: 10%;
+}
+.wrapper-bestsellers {
+  padding: 2% 0;
+  float: left;
+  height: 37%;
+  width: 25%;
+  margin-left: 0;
+}
+.featured-products {
+  padding: 2% 0 0 0;
+  background-color: black;
+  border-radius: 10%;
+  margin: 1%;
+  /* float: left; */
+  width: 98%;
+  height: 208%
+}
+@media screen and (max-width: 830px) {
+	body {
+		height:2448px;
+	}
+
+	.bestsellers h1 {
+  font-size: 15px;
+  text-decoration: none;
+  width: 93%;
+  text-align: center;
+  padding: 10% 2%;
+  border: 2px dotted orange;
+  border-radius: 30% 30% 30%;
+  color: orange;
+  background: black;
+  margin-right: 3.3%;
+}
+	footer {
+   
+  clear: both;
+  position: relative;
+  bottom: 240px;
+}
+.featured-products {
+  padding: 2% 0 0 0;
+  background-color: black;
+  border-radius: 10%;
+  margin: 1%;
+  /* float: left; */
+  width: 98%;
+  height: 179.456%;
+}
+
+.featured-products img {
+  width: 75%;
+  display: inline;
+  padding: 0%;
+  border-radius: 25%;
+  margin: 6% 6%;
+  border: 6px solid;
+}
+	.category-left h1 {
+  font-size: 34px;
+  padding: 1% 1% 1% 1%;
+  margin: 3% 1% 3% 3%;
+  width: 84%;
+  color: black;
+  background-color: orange;
+}
+.banner2 a:nth-child(2) {
+  border: orange 3px solid;
+  border-radius: 35%;
+  background-color: white;
+  padding: 6% 0;
+  margin: 0% 0%;
+  width: 100%;
+  position: relative;
+  bottom: 25px;
+}
+h1 {
+	font-size:15px;
+}
+.banner3 a {
+  background-color: white;
+  line-height: 2em;
+  width: 54%;
+  border: 3px orange solid;
+  display: inline-block;
+  position: relative;
+  bottom: 79px;
+  padding: 0 12% 0 0;
+  text-align: center;
+  margin: 1% 0 0 12%;
+  border-radius: 35%;
+}
+.bestsellers {
+  position: relative;
+  height: 1044px;
+  bottom: 487px;
+  width: 100%;
+  padding-top: 2%;
+  background-color: orange;
+  border-radius: 10%;
+}
+
+@media screen and (max-width:725px) {
+
+.bestsellers h1 {
+  font-size: 14px;
+  text-decoration: none;
+  width: 93%;
+  text-align: center;
+  padding: 10% 2%;
+  border: 2px dotted orange;
+  border-radius: 30% 30% 30%;
+  color: orange;
+  background: black;
+  margin-right: 3.3%;
+}
+.category-left {
+  position: relative;
+  bottom: 179px;
+  display: block;
+  clear: both;
+  float: left;
+  height: 21.67%;
+  width: 25%;
+  background-color: black;
+  border-radius: 10% 10%;
+}
+footer li {
+  float: left;
+  width: 16%;
+  font-size: 13px;
+  text-decoration: none;
+}
+.bestsellers {
+  position: relative;
+  height: 1044px;
+  bottom: 487px;
+  width: 100%;
+  padding-top: 2%;
+  background-color: orange;
+  border-radius: 10%;
+}
+
+	.category-left h1 {
+  font-size: 34px;
+  padding: 1% 1% 1% 1%;
+  margin: 3% 1% 3% 3%;
+  width: 84%;
+  color: black;
+  background-color: orange;
+}
+.banner2 a:nth-child(2) {
+  border: orange 3px solid;
+  border-radius: 35%;
+  background-color: white;
+  padding: 6% 0;
+  margin: 0% 0%;
+  width: 100%;
+  position: relative;
+  bottom: 25px;
+}
+h1 {
+	font-size:15px;
+}
+.banner3 a {
+  background-color: white;
+  line-height: 2em;
+  width: 54%;
+  border: 3px orange solid;
+  display: inline-block;
+  position: relative;
+  bottom: 79px;
+  padding: 0 12% 0 0;
+  text-align: center;
+  margin: 1% 0 0 12%;
+  border-radius: 35%;
+}
+	.ur {
+		visibility:hidden;
+	}
+	.ur h1 {
+		margin:0 29%;
+	}
+	.header-top {
+		width:100%;
+		  display: block;
+  position: relative;
+  bottom: 154px;
+	}
+	.featured-wrapper {
+  float: left;
+  height: 37%;
+  width: 90%;
+  background-color: black;
+  border-radius: 7%;
+  display: block;
+  margin: 0% 5% 2% 5%;
+  position: relative;
+  bottom: 148px;
+}
+.banner3 h1 {
+  font-size: 20px;
+  border: solid white 3px;
+  border-radius: 50%;
+  padding: 7%;
+  position: relative;
+  bottom: 64px;
+  right: 6%;
+}
+
+.category-left li {
+  font-size: 14px;
+  color: orange;
+  text-align: center;
+  width: 66%;
+  padding: 4%;
+  border: 3px solid;
+  margin: -3% 5% -4% 23%;
+}
+.center-pic {
+  float: right;
+  width: 73%;
+  height: 520px;
+  margin: 0 1%;
+  display: block;
+  border-radius: 6%;
+  position: relative;
+  bottom: 177px;
+  }
+  .category-left h1 {
+  font-size: 26px;
+  padding: 1% 1% 1% 1%;
+  margin: 3% 1% 3% 3%;
+  width: 90%;
+  color: black;
+  background-color: orange;
+
+}
+footer {
+	bottom:355px;
+}
+@media screen and (max-width:600px) {
+	footer li {
+  float: left;
+  width: 16%;
+  font-size: 10px;
+  text-decoration: none;
+}
+.bestsellers h1 {
+  font-size: 12px;
+  text-decoration: none;
+  width: 93%;
+  text-align: center;
+  padding: 10% 2%;
+  border: 2px dotted orange;
+  border-radius: 30% 30% 30%;
+  color: orange;
+  background: black;
+  margin-right: 3.3%;
+}
+}
+@media screen and (max-width:585px) {
+.bestsellers h1 {
+  font-size: 12px;
+  text-decoration: none;
+  width: 93%;
+  text-align: center;
+  padding: 10% 2%;
+  border: 2px dotted orange;
+  border-radius: 30% 30% 30%;
+  color: orange;
+  background: black;
+  margin-right: 3.3%;
+}
+.ur h1 {
+	margin:0 31%;
+}
+.ur {
+	visibility:hidden;
+}
+.header-top {
+	width:100%;
+  display: block;
+  position: relative;
+  bottom: 148px;
+}
+.header-top h1 {
+	  width: 100%;
+  padding: 0;
+  display: block;
+  position: relative;
+  top: 1px;
+  margin: 0 29%;
+}
+.search {
+  float: left;
+  width: 98%;
+  margin: 1%;
+  height: 64px;
+  position: relative;
+  bottom: 136px;
+
+}
+.search-2 {
+	visibility:hidden;
+}
+.category-left {
+  position: relative;
+  bottom: 253px;
+  display: block;
+  clear: both;
+  float: left;
+  height: 21.67%;
+  width: 25%;
+  background-color: black;
+  border-radius: 10% 10%;
+}
+.center-pic {
+  float: right;
+  width: 73%;
+  height: 520px;
+  margin: 0 1%;
+  display: block;
+  border-radius: 6%;
+  position: relative;
+  bottom: 249px;
+}
+.category-left h1 {
+  font-size: 22px;
+  padding: 1% 1% 1% 1%;
+  margin: 3% 1% 3% 3%;
+  width: 90%;
+  color: black;
+  background-color: orange;
+  width:81%;
+}
+
+@media screen and (max-width:505px) {
+.category-left h1 {
+  font-size: 12px;
+  padding: 1% 1% 1% 1%;
+  margin: 3% 1% 3% 3%;
+  width: 90%;
+  padding: 10% 2%;
+  color: black;
+  background-color: orange;
+  width: 81%;
+}
+.category-left li {
+  font-size: 10px;
+  color: orange;
+  text-align: center;
+  width: 66%;
+  padding: 2% 6% 1% 1%;
+  border: 3px solid;
+  border-radius: 25%;
+  margin: 8% 0% 0% 23%;
+
+}
+ 
+
+
+
+
+
